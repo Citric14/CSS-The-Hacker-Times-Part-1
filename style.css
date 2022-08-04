@@ -31,6 +31,24 @@ a {
     color: #777;
     text-decoration: none;
 }
+#computer {
+    width: auto;
+    margin: auto;
+}
+/* .more-articles {
+width: 320px;
+display: inline-block;
+margin: 2px;
+padding: 1px;
+
+} */
+section {
+    width: 335px;
+    display: inline-block;
+    margin: 2px;
+    padding: 1px;
+    border-top: solid 1px #777;
+}
 
 
 
