@@ -5,7 +5,7 @@
     padding: 1em;
     box-shadow: 1em #ddd;
     background-color: white;
-    margin: auto;
+    margin:auto;
 }
 body {
     font-family: Source Sans Pro;
@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 #computer {
-    width: auto;
+    width: 100%;
     margin: auto;
 }
 /* .more-articles {
@@ -48,6 +48,13 @@ section {
     margin: 2px;
     padding: 1px;
     border-top: solid 1px #777;
+}
+.Title {
+    font-family: Roboto Slab;
+}
+h5 {
+    color: red;
+    font-family: Roboto Slab;
 }
 
 
