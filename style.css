@@ -17,15 +17,14 @@ h1 {
     font-weight: 800;
 }
 ul {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
+    margin-right: 2em;
 }
 li {
-    margin-left: 0px;
     display: inline-block;
-    border-top: solid 1px #777;
-    border-bottom: solid 1px #777;
-    padding: 5px;
-    border-spacing:0;
+    padding: 0px;
 }
 a {
     color: #777;
@@ -47,7 +46,6 @@ section {
     display: inline-block;
     margin: 2px;
     padding: 1px;
-    border-top: solid 1px #777;
 }
 .Title {
     font-family: Roboto Slab;
@@ -56,7 +54,17 @@ h5 {
     color: red;
     font-family: Roboto Slab;
 }
-
+nav {
+    position: sticky;
+    top: 0em;
+    background-color: white;
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #777;
+    padding: 0px;
+}
+.more-articles {
+    border-top: solid 1px #777;
+}
 
 
 
