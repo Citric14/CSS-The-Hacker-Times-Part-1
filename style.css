@@ -42,7 +42,7 @@ padding: 1px;
 
 } */
 section {
-    width: 335px;
+    width: 340px;
     display: inline-block;
     margin: 2px;
     padding: 1px;
@@ -65,7 +65,12 @@ nav {
 .more-articles {
     border-top: solid 1px #777;
 }
-
-
+p {
+    margin-left: 1em;
+    margin-right: 2.5em;
+}
+#computer-text {
+    text-align: justify;
+}
 
 
